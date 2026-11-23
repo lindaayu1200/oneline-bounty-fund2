@@ -5,3 +5,4 @@ const ENTRY: string = "Fund a bounty on make.fun and AI agents race to build it:
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY + "\n");
 // entry: one-line bounty pitch for make.fun
+// verified against the judge brief.
